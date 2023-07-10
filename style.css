@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.columns, .column {
+    background-color: grey;
+    height: 100px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.col0, .col1, .col2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+}
